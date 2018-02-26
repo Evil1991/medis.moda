@@ -1,0 +1,2 @@
+<a id="ya-late-order" href="{$orderURL}" class="button btn btn-default button-medium"><span>{l s='Оплатить заказ'}<i class="icon-chevron-right right"></i></span></a>
+<script>$('#submitReorder a').hide();$('#ya-late-order').appendTo('#submitReorder').addClass('pull-right');</script>

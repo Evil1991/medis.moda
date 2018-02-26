@@ -1,0 +1,13 @@
+
+[{shop_url}] 
+
+Здравствуйте, 
+
+Покрытие заказов стало меньше
+указанного минимума: {warning_coverage}.
+
+ТЕКУЩЕЕ ПОКРЫТИЕ ЗАКАЗОВ: {current_coverage} 		
+
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
+

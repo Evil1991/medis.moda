@@ -1,0 +1,129 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+  /*box-shadow: 1px 1px 1px rgba(0,0,0,0.1);*/
+ /* -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.5)!important;*/
+  color: #000; overflow:hidden;
+  /*border:1px solid #faabc1;*/
+ border-top:0px solid #faabc1;
+ border-bottom:0px solid #ccc;
+  text-align:left;
+  line-height: 19px;
+  margin: 0 0 26px 0; }
+  .content_scene_cat .content_scene_cat_bg {
+ /* min-height:285px!important;*/
+ min-height:0px!important;
+  background-image:none!important;
+    /*padding: 30px 10px 30px 42px;*/
+padding:0px;	
+    background-color: none !important;
+	}    
+    @media (max-width: 1199px) {
+      .content_scene_cat .content_scene_cat_bg {
+        padding: 10px 10px 10px 15px; } }
+  .content_scene_cat span.category-name {
+   /*font: 400 38px/51px "Arial", sans-serif; */
+	font-family:Cuprum;
+	font-size:24px;
+	text-transform:uppercase;
+    color: #333;
+    margin-bottom: 12px;
+-webkit-transition:0.6s ease-out;
+-moz-transition:0.6s ease-out;
+-o-transition:0.6s ease-out;
+transition:0.6s ease-out;	}
+    @media (max-width: 1199px) {
+      .content_scene_cat span.category-name {
+        font-size: 25px;  
+        line-height: 30px; } }
+  .content_scene_cat p {
+    margin-bottom: 0; 
+	color:#000;
+	margin-left:0px;
+	 font: 400 14px/20px "Arial", sans-serif;
+	 margin-top:5px; 
+	line-height:20px; padding-right:10px;}
+  .content_scene_cat a {
+    color: white; }
+    .content_scene_cat a:hover {
+      text-decoration: underline; }
+  .content_scene_cat .content_scene {
+    color: #777777; }
+    .content_scene_cat .content_scene .cat_desc {
+      padding-top: 20px; }
+      .content_scene_cat .content_scene .cat_desc a {
+        color: #777777; }
+        .content_scene_cat .content_scene .cat_desc a:hover {
+          color: #515151; }
+  @media (max-width: 480px) {
+ .content_scene_cat span.category-name {
+margin-left:50px;
+} 
+ .content_scene_cat p {
+    margin-bottom: 0; margin-left:50px; margin-top:15px; }
+	.content_scene_cat {
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  color: #000;
+  text-align:left;
+  line-height: 19px;
+  margin: 20px 0 26px 0; }
+  .content_scene_cat .content_scene_cat_bg {
+  min-height:140px!important;
+    padding: 20px 10px 10px 42px;
+	background-position:-125px 30px!important;     
+    background-color: none !important; }
+  }
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+  border-top: 2px solid #ebebeb; 
+  padding: 15px 0 0px 0;  }
+  #subcategories p.subcategory-heading {
+    font-weight: normal;
+    color: #666;
+    margin: 0 0 15px 20px; }
+  #subcategories ul {
+    margin: 0 0 0 -20px; }
+    #subcategories ul li {
+      float: left;
+      width: 145px;
+      margin: 0 0 0px 33px;
+      text-align: center;
+      height: /*202px;*/ 188px; }
+      #subcategories ul li .subcategory-image {
+        padding: 0 0 8px 0; }
+        #subcategories ul li .subcategory-image a {
+          display: block;
+		  width:125px;
+		  background:#000;
+            text-align: center;
+            margin:0 auto;
+          padding: 0px;
+          border: 0px solid #d6d4d4;
+        }
+          #subcategories ul li .subcategory-image a img {
+            max-width: 100%; 
+			/*box-shadow: 1px 1px 1px rgba(0,0,0,0.1);*/
+            vertical-align: top; background:#000;
+            -webkit-transition:0.2s ease-out;
+			-moz-transition:0.2s ease-out;
+			-o-transition:0.2s ease-out;
+			transition:0.2s ease-out;
+			}
+			 #subcategories ul li .subcategory-image a img:hover {
+            opacity:0.8; }
+      #subcategories ul li .subcategory-name {
+	  font: 600 14px/22px "Open Sans", sans-serif;
+        /*font-family: Georgia;
+		font-size:16px;*/
+        color: #000;
+        text-transform: uppercase; }
+        #subcategories ul li .subcategory-name:hover {
+          color: #515151; }
+      #subcategories ul li .cat_desc {
+        display: none; }
+      #subcategories ul li:hover .subcategory-image a {
+        border: 0px solid #333333;
+        padding: 0px; }

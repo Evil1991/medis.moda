@@ -1,0 +1,9 @@
+[{shop_url}] 
+
+Здравствуйе, {firstname} {lastname}, 
+
+Вы получили новое сообщение от {shop_name}
+о заказе со ссылкой{order_name}.
+
+СООБЩЕНИЕ: {message} 		 
+

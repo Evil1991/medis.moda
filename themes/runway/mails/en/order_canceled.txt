@@ -1,0 +1,23 @@
+[{shop_url}] 
+
+Здравствуйе, {firstname} {lastname}, 
+
+Your order with the reference {order_name} from {shop_name} has
+been canceled. 
+
+Вы можете просмотреть ваш заказ и
+скачать вашу фактуру от "история
+заказов" [{history_url}] раздел
+вашего счета клиента, кликнув "Моя
+учетная запись" [{my_account_url}] в
+нашем магазине. 
+
+Если у вас гостевая учетная запись,
+вы можете следить за заказом через
+"Гостевое отслеживание"
+[{guest_tracking_url}?id_order={order_name}] в
+нашем магазине. 
+
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
+

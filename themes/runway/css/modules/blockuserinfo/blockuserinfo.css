@@ -1,0 +1,16 @@
+.header_user_info {
+  float: right;
+  border-left: 0px solid #515151;
+  border-right: 0px solid #515151; }
+  .header_user_info a {
+    color: #777;
+    font:300 13px/20px "Roboto", sans-serif;
+    display: block;
+    padding: 8px 9px 11px 8px;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+    .header_user_info a:hover, .header_user_info a.active {
+      background: none; color:#00b06c; text-decoration:underline;}

@@ -1,0 +1,60 @@
+
+[{shop_url}] 
+
+Поздравляем! 
+
+Был сформирован новый заказ в {shop_name}
+от следующего клиента: {firstname} {lastname}
+({email}) 
+
+ЗАКАЗ: {order_name} Оформлен {date}
+
+ОПЛАТА: {payment} 		 
+
+НОМЕР ЗАКАЗА
+
+ТОВАР
+
+ЦЕНА ЗА ЕДИНИЦУ
+
+КОЛИЧЕСТВО
+
+ИТОГО
+
+{items} 
+
+ТОВАРЫ 
+
+{total_products} 
+
+СКИДКИ 
+
+{total_discounts} 
+
+ПОДАРОЧНАЯ УПАКОВКА 
+
+{total_wrapping} 
+
+ДОСТАВКА 
+
+{total_shipping} 
+
+ВСЕГО НАЛОГОВ ОПЛАЧЕНО 
+
+{total_tax_paid} 
+
+ВСЕГО УДЕЛЕНО 
+
+{total_paid} 
+
+{carrier} 
+
+{delivery_block_html} 
+
+{invoice_block_html} 
+
+{message} 
+
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
+

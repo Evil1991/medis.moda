@@ -1,0 +1,12 @@
+[{shop_url}] 
+
+Здравствуйе, {firstname} {lastname}, 
+
+{employee} хочет начать с вами разговор. 
+
+ИСТОРИЯ СООБЩЕНИЙ: {messages}
+
+{employee} добавил "{comment}" 		 
+
+
+
