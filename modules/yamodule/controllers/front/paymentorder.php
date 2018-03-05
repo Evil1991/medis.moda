@@ -41,9 +41,6 @@ class yamodulepaymentorderModuleFrontController extends ModuleFrontController
                 'YA_ORG_TYPE',
             ));
 
-
-
-
             $this->context->smarty->assign(array(
                 'DATA_ORG' => $vars_org,
                 'id_cart' => $order->reference,
@@ -78,4 +75,5 @@ class yamodulepaymentorderModuleFrontController extends ModuleFrontController
 
         return $this->setTemplate('redirectk.tpl');
     }
+
 }

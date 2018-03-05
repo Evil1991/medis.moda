@@ -25,9 +25,9 @@ class YamodulePaymentKassaModuleFrontController extends ModuleFrontController
         if ($this->log_on) {
             $this->module->logSave('payment_kassa '.$dd);
         }
-        $data = explode('_', Tools::getValue('customerNumber'));
-        if (!empty($data) && $data[0] == 'KASSA') {
-            $order = Order::getByReference($data[1])->getFirst();
+        $cNum = Tools::getValue('customerNumber');
+        if (!empty($cNum)) {
+            $order = Order::getByReference($cNum)->getFirst();
             /*if ($cart->id_customer == 0
                 || $cart->id_address_delivery == 0
                 || $cart->id_address_invoice == 0
@@ -48,6 +48,7 @@ class YamodulePaymentKassaModuleFrontController extends ModuleFrontController
                 $to_currency = new Currency($rub_currency_id);
                 $total_to_pay = Tools::convertPriceFull($total_to_pay, $from_currency, $to_currency);
             }
+
             $total_to_pay = number_format($total_to_pay, 2, '.', '');
             $amount = Tools::getValue('orderSumAmount');
             $action = Tools::getValue('action');
@@ -63,11 +64,6 @@ class YamodulePaymentKassaModuleFrontController extends ModuleFrontController
                 Tools::getValue('customerNumber') . ';' .
                 trim(Configuration::get('YA_ORG_MD5_PASSWORD'))
             );
-
-            $history = new OrderHistory();
-            $history->id_order = $order->id;
-            $history->changeIdOrderState(Configuration::get('PS_OS_PAYMENT'), $order->id);
-            $history->addWithemail(true);
 
             if (!$order) {
                 $this->module->validateResponse(
